@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ Mold Verification and Safety Interlock System
+# Mold Verification and Safety Interlock System
 
 ### *A Safer Process Today, A Smarter Factory Tomorrow.*
 
