@@ -15,6 +15,7 @@ Built and validated entirely in **Proteus 8 Professional**, using an **Arduino U
 ![Simulation](https://img.shields.io/badge/SIMULATION%20BASED-4CAF50?style=for-the-badge)
 ![Safety Interlock](https://img.shields.io/badge/SAFETY%20INTERLOCK-2196F3?style=for-the-badge)
 ![Event Logging](https://img.shields.io/badge/EVENT%20LOGGING-5A0FC8?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-SIMULATION%20VALIDATED-BA7517?style=for-the-badge)
 ![License](https://img.shields.io/badge/LICENSE-MIT-8BC34A?style=for-the-badge)
 
 ---
@@ -28,6 +29,7 @@ Built and validated entirely in **Proteus 8 Professional**, using an **Arduino U
 ## 📖 Table of Contents
 
 - [Overview](#overview)
+- [Project Status](#project-status)
 - [The Problem](#the-problem)
 - [The Solution](#the-solution)
 - [Key Features](#key-features)
@@ -49,6 +51,10 @@ Built and validated entirely in **Proteus 8 Professional**, using an **Arduino U
 ## Overview
 
 Before a molding machine begins its cycle, the mold must be correctly and fully seated on the machine bed. This project automates that verification using three proximity sensors placed at three non-collinear points, combined with an Arduino-based safety interlock, an LCD status/event display, and a relay-driven start-permit output — all built and tested through Hardware-in-the-Loop-style simulation, with no physical hardware required.
+
+## Project Status
+
+This project is currently at the **simulation and design-validation stage**. All logic, wiring, and safety behavior described below have been built and verified in Proteus 8 Professional using Hardware-in-the-Loop-style simulation — no physical hardware has been assembled yet. Simulation was chosen deliberately as the first step: it allows the interlock logic, debounce handling, and fault-recovery behavior to be fully validated before committing to physical components. Physical prototyping is the planned next phase (see [Honest Limitations & Future Scope](#honest-limitations--future-scope)).
 
 ## The Problem
 
@@ -106,8 +112,8 @@ Start switch ─────  edge detect)                 └─▶ Relay (star
 **Note:** in a real physical panel, the relay coil would be driven through an NPN transistor stage rather than directly from a microcontroller pin. This was simplified for simulation but is the technically correct real-world approach.
 
 ## Circuit & Wiring
+<img width="1984" height="888" alt="Circuit" src="https://github.com/user-attachments/assets/bcc75070-bdbc-45a2-9adc-c5467fec1a8a" />
 
-*(Insert your Proteus circuit screenshot here.)*
 
 | Signal | Arduino Pin |
 |---|---|
