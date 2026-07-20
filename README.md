@@ -20,13 +20,13 @@ Built and validated entirely in **Proteus 8 Professional**, using an **Arduino U
 
 ---
 
-⭐ **If you find this project useful, consider giving it a star!**
+**If you find this project useful, consider giving it a star!**
 
 </div>
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Project Status](#project-status)
