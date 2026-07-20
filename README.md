@@ -43,7 +43,6 @@ Built and validated entirely in **Proteus 8 Professional**, using an **Arduino U
 - [Repository Structure](#repository-structure)
 - [Running the Simulation](#running-the-simulation)
 - [Honest Limitations & Future Scope](#honest-limitations--future-scope)
-- [Author](#author)
 - [License](#license)
 
 ---
