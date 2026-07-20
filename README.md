@@ -189,11 +189,6 @@ mold-verification-safety-interlock/
 - No real-time clock — event timestamps are elapsed time since power-on, not wall-clock time
 - **Planned next steps:** PLC-based start-permit integration, transistor-driven relay stage, VFD/servo-controlled motor stage, real-time clock for wall-clock event logging
 
-## Author
-
-**Rahul Sahu**
-Final-year B.Tech, Electrical and Electronics Engineering
-Aditya College of Engineering & Technology, Surampalem
 
 ## License
 
