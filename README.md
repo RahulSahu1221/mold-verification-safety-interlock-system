@@ -69,13 +69,13 @@ Three sensors — **Front-Left (FL)**, **Front-Right (FR)**, and **Rear-Centre (
 
 ## Key Features
 
-- 🔺 **Three-point verification** — confirms the mold is flat and fully seated, not just present
-- 🔒 **Safety start-permit interlock** — AND-logic across all three sensors, the same principle used in real industrial machine safety circuits
-- 🚫 **No silent auto-restart** — once a fault occurs, the system stays locked out even after it clears, until the operator gives a fresh, deliberate Start action
-- 🎯 **Named-sensor fault reporting** — the LCD identifies exactly which sensor (Front-Left / Front-Right / Rear-Centre) failed, not just a generic fault
-- 📋 **Event logging with timestamps** — every state change (Machine Started, Fault, Fault Cleared, Machine Stopped) is logged with an elapsed-time timestamp, visible on-screen and via serial output
-- 🧹 **Debounce filtering** — every input (sensors and start switch) is read twice with a short delay and only trusted if both readings agree, filtering out electrical noise and switch bounce
-- 🖥️ **20×4 character LCD status display** — shows live system state plus the two most recent logged events
+- **Three-point verification** — confirms the mold is flat and fully seated, not just present
+- **Safety start-permit interlock** — AND-logic across all three sensors, the same principle used in real industrial machine safety circuits
+- **No silent auto-restart** — once a fault occurs, the system stays locked out even after it clears, until the operator gives a fresh, deliberate Start action
+- **Named-sensor fault reporting** — the LCD identifies exactly which sensor (Front-Left / Front-Right / Rear-Centre) failed, not just a generic fault
+- **Event logging with timestamps** — every state change (Machine Started, Fault, Fault Cleared, Machine Stopped) is logged with an elapsed-time timestamp, visible on-screen and via serial output
+- **Debounce filtering** — every input (sensors and start switch) is read twice with a short delay and only trusted if both readings agree, filtering out electrical noise and switch bounce
+- **20×4 character LCD status display** — shows live system state plus the two most recent logged events
 
 ## Engineering Principle
 
@@ -165,6 +165,7 @@ Both tested fault scenarios confirmed: (1) accurate per-sensor fault identificat
 
 ```
 mold-verification-safety-interlock/
+├── Circuit.png
 ├── Mold_Seating.ino
 ├── Mold Verification & Safety Interlock System.pdsprj
 ├── Mold Verification & Safety Interlock System Presentation.pdf
